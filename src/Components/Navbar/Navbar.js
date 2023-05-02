@@ -70,7 +70,7 @@ function Navbar() {
                 </div>
                 <div className='nav2'>
                     <h3>Login</h3>
-                    <button classname='cta'>Sign Up</button>
+                    <button className='cta'>Sign Up</button>
                 </div>
         </header>
         </Top>
