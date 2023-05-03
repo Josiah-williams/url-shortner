@@ -5,9 +5,17 @@ import img from  "./images/illustration-working.svg"
 
 
 const Hero = styled.div`
+    .section-hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    height: 1550px;
+    
+    }
     .hero-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     }
     .hero-img{
@@ -24,16 +32,53 @@ const Hero = styled.div`
     justify-items: flex-start;
     }
      .hero-img {
-        height: 38vh;
-        width: 179vh;
-        
+        height: 400px;
+        width: 45%;
+        margin-top:10px;
+        margin-right:-80px;
     }
+    .boxes-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+    .hero-details {
+    width:37%;
+    text-align: left;
+   }
+   .hero-h1 {
+    width: 100%;
+    }
+    .hero-h1 h1 {
+    font-size: 56px;
+    margin: 80px 0px 10px 0px;
+    width: 100%;
+    display: block;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    }
+    .hero-p {
+    width: 100%;
+    margin-bottom: 15px;
+    }
+    .hero-p p {
+    font-size: 125%;
+    color: #555;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 32px;
+    }
+
+
 `
 const HeroSection = () => {
     return(
         <Hero>
         <section className="section-hero">
             <div className="hero-container">
+                <div className="hero-details">
         <div className="hero-h1">
             <h1>
                 More than just shorter links
@@ -48,7 +93,8 @@ const HeroSection = () => {
         <div className="hero-button">
             <HeroSectionButton />
         </div>
-        <div className="hero-boxes hero-img">
+        </div>
+        <div className="hero-img">
         </div>
         </div>
         </section>
