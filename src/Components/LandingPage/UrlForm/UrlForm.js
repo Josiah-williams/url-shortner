@@ -18,6 +18,7 @@ const Form = styled.div`
     }
     .form-container input{
         width: 62%;
+        height:14px;
         margin: 12px 0px 30px;
         border: 1px solid #9FA3A9;
         outline: none;

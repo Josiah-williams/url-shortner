@@ -11,6 +11,9 @@ const Button = styled.div`
     border-radius: 7px;
     font-size: 18px;
     font-weight: 700;
+    position:relative;
+    left:320px;
+    bottom:125px;
     }
 `
 const UrlFormButton = () => {

@@ -5,14 +5,6 @@ import img from  "./images/illustration-working.svg"
 
 
 const Hero = styled.div`
-    .section-hero {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background: #fff;
-    height: 1550px;
-    
-    }
     .hero-container{
     display: flex;
     justify-content: space-around;

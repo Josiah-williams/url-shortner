@@ -14,6 +14,7 @@ const Booost = styled.div`
         width:100%;
     }
     .boost-img img{
+        width:100%;
         background-size: cover;
     }
     .boost-details{
