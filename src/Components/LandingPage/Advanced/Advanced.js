@@ -77,28 +77,28 @@ const Statistics = styled.div`
     .card1 img{
         position: relative;
         top: -48px;
-        border: 1px solid rgb(75 63 107);
+        border: 1px solid hsl(257, 27%, 26%);
         border-radius:50%;
         padding:16px;
-        background-color:rgb(75 63 107);
+        background-color:hsl(257, 27%, 26%);
         margin-bottom:-45px;
     }
     .card2 img{
         position: relative;
         top: -48px;
-        border: 1px solid rgb(75 63 107);
+        border: 1px solid hsl(257, 27%, 26%);
         border-radius:50%;
         padding:16px;
-        background-color:rgb(75 63 107);
+        background-color:hsl(257, 27%, 26%);
         margin-bottom:-45px;
     }
      .card3 img{
         position: relative;
         top: -48px;
-        border: 1px solid rgb(75 63 107);
+        border: 1px solid hsl(257, 27%, 26%);
         border-radius:50%;
         padding:16px;
-        background-color:rgb(75 63 107);
+        background-color: hsl(257, 27%, 26%);
         margin-bottom:-45px;
 `
 
