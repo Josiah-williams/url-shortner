@@ -70,7 +70,8 @@ export default function UrlForm() {
             alert(e);
         }
     };
-
+    //In the above function we have attached the original URL as a query to Shrtcode’s shortening endpoint and send a GET request to that endpoint. 
+    //Then when the response returns, it gets stored in the shortendUrl state variable.
 
     return(
         <Form>
@@ -104,3 +105,7 @@ export default function UrlForm() {
     )
 }
 //In the code block above, we created a url used to make the input field controlled and a shortendUrl state which will hold the shortened URL.//
+//CopyToClipboard is a react library used to copy text to clipboard//
+//Next, we need to pass the button to trigger the copying feature as a child to the CopyToClipboard component and pass the short URL to be copied as props to it.
+
+//To do this, import the CopyToClipboard component from the react-copy-to-clipboard library and modify the div with the class name of shortener__viewShot to the following version:
