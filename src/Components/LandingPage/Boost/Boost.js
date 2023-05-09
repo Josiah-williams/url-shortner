@@ -8,7 +8,7 @@ const Booost = styled.div`
     .boost-container{
         width:100%;
         height:249px;
-        background-color: #282c34;
+        background-color: rgb(49 37 78);
     }
     .boost-img{
         width:100%;

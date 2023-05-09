@@ -1,5 +1,5 @@
 import React from "react"
-import logo3 from '../../images/logo.svg';
+import logo3 from '../Footer/footer-logo/logo.svg';
 import img1 from '../../images/icon-facebook.svg';
 import img2 from '../../images/icon-twitter.svg';
 import img3 from '../../images/icon-pinterest.svg';
@@ -10,7 +10,7 @@ const Foteer = styled.div`
     footer{
      width: 100%;
     height: 337px;
-    background: #000000c9;
+    background: rgb(36 35 40);
     }
     .footer-container{
     position: relative;
@@ -37,7 +37,7 @@ const Foteer = styled.div`
     }
     .footer-image img {
     width: 100%;
-    height: 100%;
+    height: 68%;
     }
     .footer-icons-box {
     display: flex;
@@ -86,7 +86,7 @@ const Footer = () => {
             <div className='footer-container'>
           <div className='footer-logo-container'>
             <div className="footer-image">
-                <img src={logo3} alt="logo" />
+                <img src={logo3} alt="logo"  fill=""/>
             </div>
             </div>
             </div>

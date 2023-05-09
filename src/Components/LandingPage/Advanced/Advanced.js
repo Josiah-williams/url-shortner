@@ -9,53 +9,97 @@ const Statistics = styled.div`
     .advanced{
         border: 1px solid rgb(159 163 169 / 18%);
         background-color: rgb(159 163 169 / 18%);
-        height:574px;
+        height:900px;
     }
     .advanced-p p{
-        width:32%;
+        width:40%;
         color:gray;
         position:relative;
-        left:450px
+        left:400px;
+        font-size:20px;
+        margin-bottom:80px;
+    }
+    .advanced-h1{
+        margin-top: 200px;
+    }
+    .advanced-h1 h1{
+        font-size: 40px
     }
     .card-container{
         display: flex;
+        gap:25px;
     }
     .card1{
         border:1px solid white;
         background-color: white;
-        width:20%;
+        border-radius: 7px;
+        width:21%;
         text-align:left;
-        margin-left: 136px;
+        margin-left: 157px;
         padding:25px 25px 25px 25px;
     }
     .card1-p p{
         color: gray;
-        font-size:16px
+        font-size:16.5px;
+        line-height:23px;
     }
     .card2{
         border:1px solid white;
         background-color: white;
-        width:20%;
+        border-radius: 7px;
+        width:21%;
         text-align:left;
-        margin-left: 136px;
-        padding:25px 25px 25px 25px
+        padding:25px 25px 25px 25px;
+        position: relative;
+        top:41px;
     }
     .card2-p p{
         color: gray;
-        font-size:16px
+        font-size:16.5px;
+        line-height: 23px
     }
     .card3{
         border:1px solid white;
         background-color: white;
-        width:20%;
+        border-radius: 7px;
+        width:21%;
         text-align:left;
-        margin-left: 136px;
-        padding:25px 25px 25px 25px
+        padding:25px 25px 25px 25px;
+        position: relative;
+        top:78px;
     }
     .card3-p p{
+        // width:70%;
         color: gray;
-        font-size:16px
+        font-size:16.5px;
+        line-height:23px;
     }
+    .card1 img{
+        position: relative;
+        top: -48px;
+        border: 1px solid rgb(75 63 107);
+        border-radius:50%;
+        padding:16px;
+        background-color:rgb(75 63 107);
+        margin-bottom:-45px;
+    }
+    .card2 img{
+        position: relative;
+        top: -48px;
+        border: 1px solid rgb(75 63 107);
+        border-radius:50%;
+        padding:16px;
+        background-color:rgb(75 63 107);
+        margin-bottom:-45px;
+    }
+     .card3 img{
+        position: relative;
+        top: -48px;
+        border: 1px solid rgb(75 63 107);
+        border-radius:50%;
+        padding:16px;
+        background-color:rgb(75 63 107);
+        margin-bottom:-45px;
 `
 
 const Advanced = () => {
@@ -103,7 +147,7 @@ const Advanced = () => {
          </div>
         <div className="card3">
             <img src={icon3} alt="customizable-icon" />
-            <div className="card3-h1">
+            <div className="card3-h2">
                 <h2>
                     Fully customizable
                 </h2>

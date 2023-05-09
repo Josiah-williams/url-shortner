@@ -5,17 +5,17 @@ import styled from "styled-components"
 const Top = styled.div`
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
     header{
         display: flex;
         justify-content:left;
-        padding: 48px 100px;
+        padding: 48px 155px;
     }
     header img{
         width: 100px;
         height: 31px;
+        margin-top: -5px
     }
     header ul {
         list-style-type: none;
@@ -30,20 +30,24 @@ const Top = styled.div`
     border-bottom: 2px solid transparent;
     font-weight: 400;
     font-size: 16px;
-    color: #0F1928;
+    color: rgb(159, 163, 169);
     letter-spacing: 1px;
     word-spacing: 1px;
     }
     .nav2{
         display: flex;
         gap:40px;
-        margin-left:450px
+        margin-left:350px
+    }
+    .nav2 h3{
+        cursor:pointer;
+        color: rgb(159, 163, 169);
     }
      button, .cta {
         border-radius: 27px;
         padding: 0.8em 1.5em;
         margin-top:-12px;
-        background-color: rgb(26 178 157);
+        background-color: rgb(43 208 208);
         color: #fff;
         font-size: 18px;
         letter-spacing: 5%;

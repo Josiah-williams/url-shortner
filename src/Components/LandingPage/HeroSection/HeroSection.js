@@ -37,19 +37,23 @@ const Hero = styled.div`
     .hero-details {
     width:37%;
     text-align: left;
+    position: relative;
+    left: 68px;
+}
    }
    .hero-h1 {
     width: 100%;
     }
     .hero-h1 h1 {
-    font-size: 56px;
+    font-size: 70px;
     margin: 80px 0px 10px 0px;
-    width: 100%;
+    width: 134%;
     display: block;
     font-weight: 700;
     word-spacing: 2px;
     letter-spacing: 1px;
     line-height: 52px;
+    color: #34313d;
     }
     .hero-p {
     width: 100%;

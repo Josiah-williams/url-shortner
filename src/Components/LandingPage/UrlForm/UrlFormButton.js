@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Button = styled.div`
     .url-section-button button{
-    background-color: rgb(26 178 157);
+    background-color: rgb(43 208 208);
     padding: 12px 32px;
     color: #fff;
     border: none;
@@ -12,8 +12,8 @@ const Button = styled.div`
     font-size: 18px;
     font-weight: 700;
     position:relative;
-    left:320px;
-    bottom:125px;
+    left:400px;
+    bottom:140px;
     }
 `
 const UrlFormButton = () => {

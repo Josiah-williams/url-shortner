@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Button = styled.div`
     .hero-section-button button{
-    background-color: rgb(26 178 157);
+    background-color: rgb(43 208 208);
     padding: 12px 32px;
     color: #fff;
     border: none;
